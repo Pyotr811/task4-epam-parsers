@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cargo-service>
+    <customer id="1">
+        <customerFirstName>John</customerFirstName>
+        <customerLastName>Smith</customerLastName>
+        <phone>375296783412</phone>
+        <order id="1">
+            <name>fragile</name>
+            <weight unit="kg">
+                <value>50</value>
+            </weight>
+            <from>Minsk</from>
+            <to>Brest</to>
+            <price currency="dollar">
+                <amount>100</amount>
+            </price>
+        </order>
+    </customer>
+    <customer id="2">
+        <customerFirstName>Dan</customerFirstName>
+        <customerLastName>Herts</customerLastName>
+        <phone>375297632301</phone>
+        <order id="1">
+            <name>door</name>
+            <weight unit="kg">
+                <value>20</value>
+            </weight>
+            <from>Minsk</from>
+            <to>Orsha</to>
+            <price currency="dollar">
+                <amount>20</amount>
+            </price>
+        </order>
+    </customer>
+    <customer id="3">
+        <customerFirstName>Mike</customerFirstName>
+        <customerLastName>Roberts</customerLastName>
+        <phone>375294485829</phone>
+        <order id="1">
+            <name>bed</name>
+            <weight unit="kg">
+                <value>100</value>
+            </weight>
+            <from>Mogilev</from>
+            <to>Polotsk</to>
+            <price currency="dollar">
+                <amount>110</amount>
+            </price>
+        </order>
+    </customer>
+    <customer id="4">
+        <customerFirstName>Ivan</customerFirstName>
+        <customerLastName>Ivanov</customerLastName>
+        <phone>375292983412</phone>
+        <order id="1">
+            <name>motorcycle</name>
+            <weight unit="kg">
+                <value>220</value>
+            </weight>
+            <from>Minsk</from>
+            <to>Grodno</to>
+            <price currency="dollar">
+                <amount>200</amount>
+            </price>
+        </order>
+    </customer>
+    <customer id="5">
+        <customerFirstName>Serg</customerFirstName>
+        <customerLastName>Poert</customerLastName>
+        <phone>375294730834</phone>
+        <order id="1">
+            <name>engine</name>
+            <weight unit="kg">
+                <value>230</value>
+            </weight>
+            <from>Warsaw</from>
+            <to>Minsk</to>
+            <price currency="dollar">
+                <amount>100</amount>
+            </price>
+        </order>
+    </customer>
+    <driver id="1">
+        <driverFirstName>Oleg</driverFirstName>
+        <driverLastName>Smirnov</driverLastName>
+        <driverPhone>375297653412</driverPhone>
+        <car id="1">
+            <brand>iveco</brand>
+            <model>daily</model>
+            <liftCapacity unit="kg">
+                <capacity>2500</capacity>
+            </liftCapacity>
+            <yearOfIssue>2003</yearOfIssue>
+        </car>
+    </driver>
+    <driver id="2">
+        <driverFirstName>Nik</driverFirstName>
+        <driverLastName>Sergeev</driverLastName>
+        <driverPhone>375297656412</driverPhone>
+        <car id="1">
+            <brand>volkswagen</brand>
+            <model>t5</model>
+            <liftCapacity unit="kg">
+                <capacity>1000</capacity>
+            </liftCapacity>
+            <yearOfIssue>2007</yearOfIssue>
+        </car>
+    </driver>
+    <driver id="3">
+        <driverFirstName>Alex</driverFirstName>
+        <driverLastName>Alexeev</driverLastName>
+        <driverPhone>375297652312</driverPhone>
+        <car id="1">
+            <brand>volkswagen</brand>
+            <model>crafter</model>
+            <liftCapacity unit="kg">
+                <capacity>3000</capacity>
+            </liftCapacity>
+            <yearOfIssue>2010</yearOfIssue>
+        </car>
+    </driver>
+    <driver id="4">
+        <driverFirstName>Peter</driverFirstName>
+        <driverLastName>Petrov</driverLastName>
+        <driverPhone>375299428549</driverPhone>
+        <car id="1">
+            <brand>ford</brand>
+            <model>transit</model>
+            <liftCapacity unit="kg">
+                <capacity>1500</capacity>
+            </liftCapacity>
+            <yearOfIssue>1998</yearOfIssue>
+        </car>
+    </driver>
+    <driver id="5">
+        <driverFirstName>Andrew</driverFirstName>
+        <driverLastName>Lapenko</driverLastName>
+        <driverPhone>375258649623</driverPhone>
+        <car id="1">
+            <brand>mercedes</brand>
+            <model>sprinter</model>
+            <liftCapacity unit="kg">
+                <capacity>3500</capacity>
+            </liftCapacity>
+            <yearOfIssue>2005</yearOfIssue>
+        </car>
+    </driver>
+</cargo-service>
